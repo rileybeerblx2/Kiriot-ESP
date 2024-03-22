@@ -13,8 +13,8 @@ local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
 ## Creating The ESP Config
 ```lua
 -- config
-ESP.Players = false
-ESP.Boxes = false
+ESP.Players = true
+ESP.Boxes = true
 ESP.Names = true
 ESP:Toggle(true)
 ```
